@@ -1,0 +1,4 @@
+name: ChunkAdvancements
+version: '1.0-SNAPSHOT'
+main: me.liamivatt.chunkAdvancements.ChunkAdvancements
+api-version: '1.21'
