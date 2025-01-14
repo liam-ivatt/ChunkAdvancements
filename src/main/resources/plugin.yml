@@ -2,3 +2,14 @@ name: ChunkAdvancements
 version: '1.0-SNAPSHOT'
 main: me.liamivatt.chunkAdvancements.ChunkAdvancements
 api-version: '1.21'
+
+commands:
+  setchunk:
+    description: Sets the target chunk to the player's current location.
+    usage: /setchunk
+    permission: chunkadvancements.setchunk
+
+permissions:
+  chunkadvancements.setchunk:
+    description: Allows a player to use the /setchunk command.
+    default: op
