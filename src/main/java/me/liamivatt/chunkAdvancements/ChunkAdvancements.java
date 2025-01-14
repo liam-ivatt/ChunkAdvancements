@@ -51,6 +51,7 @@ public class ChunkAdvancements extends JavaPlugin implements Listener {
             // Store current player chunk as target chunk
             targetChunkX = currentChunk.getX();
             targetChunkZ = currentChunk.getZ();
+            saveTargetChunk(); // Save to config
 
             player.sendMessage("Target chunk set to: X:" + targetChunkX + ", Z:" + targetChunkZ);
             getLogger().info("Target chunk set by " + player.getName() + ", to X:" + targetChunkX + ", Z:" + targetChunkZ);
